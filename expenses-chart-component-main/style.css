@@ -1,0 +1,88 @@
+*{
+
+  font-family: "DM Sans", sans-serif;
+
+}
+body{
+    
+background: hsl(30, 100%, 94%);
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.lettermybalance{
+font-size: x-small;
+opacity: 69%;
+}
+.top{
+    font-size: 30px;
+    background:  hsl(10, 79%, 65%);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    width: 340px;
+}
+.balanceinfo{
+    position: absolute;
+}
+.top img{
+    position:relative;
+   margin-left: 290px;
+   width: 45px;
+   vertical-align: sub;
+ 
+}
+.mainsheet{
+    margin:15px;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: white;
+    width: 330px;
+    height: 350px;
+}
+.mybarChart{
+    background-color: #000000;
+}
+.print{
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bolder;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    background-color: wheat;
+}
+.print:hover{
+    transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(218, 101, 18, 0.5);
+ transition: 1s;
+}
+.totalThisMonth {
+padding: 0;
+margin: 0;
+    position: absolute;
+}
+.percentageChange{
+    position: relative;
+    margin-left: 200px;
+}
+
+@media(max-width:500px){
+    *{
+        max-width: 400px;
+        
+    }
+    .container{
+       width: auto;
+       margin-top: 35%;
+     
+       align-items: center;
+
+    }
+    
+}

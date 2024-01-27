@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <title>DM|Expenses chart component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+    
+<script src="script.js"></script>
+
+  <div class="container">
+    
+<div class="top">
+ <div class="balanceinfo">
+  <div class="lettermybalance">  My balance</div>
+  <div class="balance"> 
+   $921.48
+   
+  </div>
+ </div>
+   <img src="images/logo.svg" alt="">
+</div>
+  <div class="mainsheet">
+  
+  <div class="spendingList">
+  
+<h1 style="font-size: 20px;">    Spending - Last 7 days</h1>
+   <p style="opacity: 50%;">
+    <canvas id="myBarChart" width="400" height="200"></canvas> 
+    mon
+    tue
+    wed
+    thu
+    fri
+    sat
+    sun</p>
+  </div>
+  <p style="border: 1px solid rgb(156, 156, 156);"></p>
+
+  <div class="end">
+
+    <div class="totalThisMonth">
+ Total this month 
+  <h1>$478.33</h1>
+     
+       </div>
+       <div class="percentageChange">
+       
+         +2.4%
+         from last month
+         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+         <script src="script.js"></script>
+        
+         
+       </div>
+  </div>
+ 
+  </div>
+  <button class="print" onclick="printChart()">Print the chart</button>
+    
+  
+    </div>
+  </div>
+</body>
+
+  </div>
+
+
+</html>
