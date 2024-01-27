@@ -16,7 +16,7 @@ This is a simple web component that displays an expenses chart for the last 7 da
 
 ## Demo
 
-![Expenses Chart Demo](./"expenses-chart-component-main/mobile-design.jpg")
+![Expenses Chart Demo](./expenses-chart-component-main/design/desktop-preview.jpg)
 
 Check out the live demo [here](https://pdineshmurugan.github.io/ExpensiveTracker/expenses-chart-component-main/).
 
